@@ -1,0 +1,4 @@
+#!/bin/bash
+
+tr -d '\r' < $1 > tmp
+mv tmp $1
